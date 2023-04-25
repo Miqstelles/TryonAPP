@@ -3,10 +3,9 @@ import { TextInput, TextInputProps } from 'react-native';
 import { styles } from './style';
 
 interface InputProps extends TextInputProps {
-    label: string;
 }
 
-export function Input({ label, ...rest }: InputProps) {
+export function Input({ ...rest }: InputProps) {
     const [text, onChangeText] = React.useState('');
 
     return (
