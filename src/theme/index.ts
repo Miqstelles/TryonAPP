@@ -3,7 +3,7 @@ export const THEME = {
         BACKGROUND_100: '#F3D9BB',
         BACKGROUND_200: '#E6CCAE',
 
-        TEXT: '#FFFFFF',
+        TEXT: '#000000',
 
         CAPTION_500: '#CB8940',
         CAPTION_400: '#A1A1AA',
@@ -23,12 +23,13 @@ export const THEME = {
         LIGHT: 'Raleway_300Light',
         REGULAR: 'Raleway_400Regular',
         BOLD: 'Raleway_700Bold',
+        KNEWAVE: 'Knewave_400Regular',
     },
 
     FONT_SIZE: {
         SM: 14,
         MD: 16,
         LG: 24,
-        XL: 28,
+        XL: 30,
     }
 };
