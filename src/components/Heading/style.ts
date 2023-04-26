@@ -8,6 +8,6 @@ export const styles = StyleSheet.create({
     title: {
         color: THEME.COLORS.TEXT,
         fontSize: THEME.FONT_SIZE.XL,
-        fontFamily: THEME.FONT_FAMILY.KNEWAVE
+        fontFamily: THEME.FONT_FAMILY.REGULAR
     },
 });
