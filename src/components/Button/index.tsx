@@ -3,12 +3,11 @@ import { TouchableOpacity, StyleSheet, Text, TouchableOpacityProps } from 'react
 
 import { styles } from './style';
 import { THEME } from '../../theme';
-import { MagnifyingGlass } from 'phosphor-react-native';
 
 interface ButtonProps extends TouchableOpacityProps {
     title?: string;
     size: number;
-    icon?: boolean;
+    icon?: React.ReactNode;
 }
 
 export function Button({ title, size = 50, icon, ...rest }: ButtonProps) {
@@ -30,7 +29,7 @@ export function Button({ title, size = 50, icon, ...rest }: ButtonProps) {
     return (
         <TouchableOpacity style={buttonStyles.button} {...rest}>
             <Text style={styles.buttonText}>{title}</Text>
-            {icon ? < MagnifyingGlass color={THEME.COLORS.CAPTION_500} size={32} /> : null}
+            {icon}
         </TouchableOpacity>
     );
 }
