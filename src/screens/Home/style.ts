@@ -20,5 +20,17 @@ export const styles = StyleSheet.create({
         justifyContent: 'space-between',
         width: '80%',
         marginTop: 20,
+    },
+    ingredients: {
+        gap: 24,
+        width: '80%'
+    },
+    ingredient: {
+        fontFamily: THEME.FONT_FAMILY.BOLD,
+        fontSize: 32,
+        color: THEME.COLORS.CAPTION_500,
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+        alignItems: 'center',
     }
 });
