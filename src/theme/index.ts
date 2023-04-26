@@ -24,7 +24,6 @@ export const THEME = {
         LIGHT: 'Raleway_300Light',
         REGULAR: 'Raleway_400Regular',
         BOLD: 'Raleway_700Bold',
-        KNEWAVE: 'Knewave_400Regular',
     },
 
     FONT_SIZE: {

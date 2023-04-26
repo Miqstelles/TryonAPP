@@ -23,8 +23,8 @@ export function Home() {
                         size={155}
                     />
                     <Button
-                        title="0"
                         size={50}
+                        icon={true}
                     />
                 </View>
             </SafeAreaView>
