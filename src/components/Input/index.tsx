@@ -17,7 +17,7 @@ export function Input({ value, onChangeText, ...rest }: InputProps) {
             keyboardType='default'
             onChangeText={(text) => {
                 // Verifica se a entrada contém apenas letras maiúsculas ou minúsculas
-                const regex = /^[a-zA-Z]+$/;
+                const regex = /^[a-zA-Z ]+$/;
                 if (regex.test(text) || text === '') {
                     onChangeText(text);
                 }
