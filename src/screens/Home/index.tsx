@@ -1,7 +1,7 @@
 import { SafeAreaView } from "react-native-safe-area-context";
 import { useNavigation } from '@react-navigation/native';
-import { Text, View } from 'react-native';
-import { TrashSimple } from 'phosphor-react-native'
+import { Text, View, ScrollView } from 'react-native';
+import { Scroll, TrashSimple } from 'phosphor-react-native'
 import { MagnifyingGlass } from 'phosphor-react-native';
 import { useState } from "react";
 
@@ -43,7 +43,7 @@ export function Home() {
                         icon={<MagnifyingGlass size={32} color={THEME.COLORS.CAPTION_500} />}
                     />
                 </View>
-                <View style={styles.ingredients}>
+                <ScrollView style={styles.ingredients}>
                     {ingredients.map((item, index) => (
                         <View style={styles.ingredient} >
                             <Text style={{ color: THEME.COLORS.CAPTION_500, fontSize: 32, width: '80%', fontFamily: THEME.FONT_FAMILY.BOLD }} key={index}>• {item}</Text>
@@ -58,7 +58,7 @@ export function Home() {
                             />
                         </View>
                     ))}
-                </View>
+                </ScrollView>
             </SafeAreaView>
         </Background>
     )
