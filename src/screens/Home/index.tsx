@@ -45,7 +45,7 @@ export function Home() {
                 </View>
                 <ScrollView style={styles.ingredients}>
                     {ingredients.map((item, index) => (
-                        <View style={styles.ingredient} >
+                        <View style={styles.ingredient} key={index + 1} >
                             <Text style={{ color: THEME.COLORS.CAPTION_500, fontSize: 32, width: '80%', fontFamily: THEME.FONT_FAMILY.BOLD }} key={index}>• {item}</Text>
                             <Button
                                 size={50}
