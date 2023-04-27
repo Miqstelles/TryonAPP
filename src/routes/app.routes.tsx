@@ -2,7 +2,7 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { HouseSimple, Info as InfoIcon, Hamburger } from 'phosphor-react-native';
 import { Home } from '../screens/Home'
 import { Info } from '../screens/Info';
-import { Recipes } from '../screens/Recipes';
+import { Recipes } from '../screens/SearchRecipes';
 
 const { Navigator, Screen } = createBottomTabNavigator();
 
