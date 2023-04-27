@@ -29,6 +29,7 @@ export function Home() {
             <SafeAreaView style={styles.container}>
                 <Text style={styles.title}>DIGITE SEU INGREDIENTE</Text>
                 <Input
+                    placeholder="Insira seu ingrediente"
                     value={ingredient}
                     onChangeText={setIngredient}
                 />

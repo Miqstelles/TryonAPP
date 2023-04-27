@@ -23,6 +23,7 @@ export function Recipes() {
             <SafeAreaView style={styles.container}>
                 <Text style={styles.title}>DIGITE O NOME DA RECEITA</Text>
                 <Input
+                    placeholder="Insira o nome da receita"
                     value={recipe}
                     onChangeText={setRecipe}
                 />
