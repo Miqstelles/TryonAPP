@@ -46,7 +46,7 @@ export function Home() {
                 <View style={styles.ingredients}>
                     {ingredients.map((item, index) => (
                         <View style={styles.ingredient} >
-                            <Text style={{ color: THEME.COLORS.CAPTION_500, fontSize: 32, width: '80%' }} key={index}>• {item}</Text>
+                            <Text style={{ color: THEME.COLORS.CAPTION_500, fontSize: 32, width: '80%', fontFamily: THEME.FONT_FAMILY.BOLD }} key={index}>• {item}</Text>
                             <Button
                                 size={50}
                                 icon={<TrashSimple color={THEME.COLORS.CAPTION_500} size={32} />}
