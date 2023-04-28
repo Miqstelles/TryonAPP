@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
-import { ScrollView, Text, View } from 'react-native';
+import { ScrollView, Text, TouchableOpacity, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { CaretRight } from 'phosphor-react-native';
+import { useNavigation } from '@react-navigation/native';
 
 import { Background } from '../../components/Background';
 import { Input } from '../../components/Input';
@@ -11,6 +12,7 @@ import { styles } from './style';
 import { THEME } from '../../theme';
 
 export function Recipes() {
+    const navigation = useNavigation();
     const [recipe, setRecipe] = useState('');
 
     const searchRecipes = () => {
@@ -32,10 +34,12 @@ export function Recipes() {
                     <ScrollView>
                         <View style={styles.recipeList}>
                             {searchRecipes().map((item, index) => (
-                                <View style={styles.recipeItem} key={index}>
-                                    <Text style={styles.recipeText}>{index + 1}. {item.nome}</Text>
-                                    <CaretRight size={44} />
-                                </View>
+                                <TouchableOpacity>
+                                    <View style={styles.recipeItem} key={index}>
+                                        <Text style={styles.recipeText}>{index + 1}. {item.nome}</Text>
+                                        <CaretRight size={44} />
+                                    </View>
+                                </TouchableOpacity>
                             ))}
                         </View>
                     </ScrollView>
