@@ -17,7 +17,7 @@ export function Recipes() {
 
     const searchRecipes = () => {
         const recipesArray = Object.values(recipesData);
-        return recipesArray.filter(item => item.nome.toLowerCase().includes(recipe.toLowerCase()));
+        return recipesArray.filter(item => item.nome.toLowerCase().includes(recipe.toLowerCase()))
     }
 
     return (
@@ -34,7 +34,13 @@ export function Recipes() {
                     <ScrollView>
                         <View style={styles.recipeList}>
                             {searchRecipes().map((item, index) => (
-                                <TouchableOpacity>
+                                <TouchableOpacity onPress={() => {
+                                    navigation.navigate('recipe', {
+                                        nome: item.nome,
+                                        modoPreparo: item.modoPreparo,
+                                        ingredientes: item.ingredientes,
+                                    });
+                                }}>
                                     <View style={styles.recipeItem} key={index}>
                                         <Text style={styles.recipeText}>{index + 1}. {item.nome}</Text>
                                         <CaretRight size={44} />
