@@ -41,11 +41,10 @@ export function Home() {
                     <>
                         <Text style={styles.title}>DIGITE SEU INGREDIENTE</Text>
                         <Input
-                            placeholder="Insira seu ingrediente"
+                            placeholder="Insira seus ingredientes"
                             value={ingredient}
                             onChangeText={setIngredient}
                         />
-
 
                         <View style={styles.btn}>
                             <Button
@@ -56,7 +55,7 @@ export function Home() {
                             <Button
                                 size={50}
                                 icon={<MagnifyingGlass size={32} color={THEME.COLORS.CAPTION_500} />}
-                                onPress={() => ingredients.length > 0 ? setRecipe(true) : setRecipe(false)}
+                                onPress={() => filteredRecipes.length > 0 && ingredients.length > 0 ? setRecipe(true) : setRecipe(false)}
                             />
                         </View>
                         <ScrollView style={styles.ingredients}>
@@ -88,7 +87,7 @@ export function Home() {
                         </View>
                         <ScrollView>
                             {recipe === true && ingredients.length > 0 && filteredRecipes.map((recipe, index) => (
-                                <View style={styles.recipeList}>
+                                <View style={styles.recipeList} key={index}>
                                     <TouchableOpacity onPress={() => {
                                         navigation.navigate('recipe', {
                                             nome: recipe.nome,
