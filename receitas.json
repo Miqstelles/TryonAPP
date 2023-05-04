@@ -34,21 +34,97 @@
   },
   {
     "id": "2",
-    "nome": "Aroz de Chocolate com Gengibre",
+    "nome": "Hamburquibe de Carne com Molho de Iogurte",
     "ingredientes": [
-      "50 g farinha de milho fina",
-      "10 g de cacau em pó"
+      "RECHEIO",
+      "2 colheres (sopa) de azeite",
+      "1 colher (sopa) de alho picadinho",
+      "100g de cebola picada",
+      "500g de carne moida",
+      "60g de extrato de tomate",
+      "1⁄2 xícara (chá) de água",
+      "Salcinha a gosto",
+      "Pimenta síria a gosto",
+      "Sal a gosto",
+      "MASSA",
+      "150g de cebola cortadas em cubos médios",
+      "4 dentes de alho",
+      "1 xícara (chá) de hortelã",
+      "200g de trigo para quibe",
+      "360ml de água fervente",
+      "60ml de azeite",
+      "1kg de carne moída",
+      "1 xícara (chá) de tomate sem pele e sem semente cortado em cubos",
+      "Sal a gosto",
+      "Pimenta síria a gosto",
+      "MOLHO DE IOGURTE",
+      "2 copos de iogurte natural",
+      "12 colheres (sopa) de azeite",
+      "1 limão (suco)",
+      "Hortelã picadinho a gosto",
+      "Sal a gosto",
+      "Pimenta síria a gosto"
     ],
     "modoPreparo": [
-      "1 - Coloque numa tigela a farinha de milho fina e o cacau em pó.",
-      "2 - Misture e reserve.",
-      "3 - Numa panela, em banho-maria, derreta o chocolate meio amargo picado com a manteiga sem sal cortada em cubos.",
-      "4 - Retire do fogo.",
-      "5 - Adicione o suco de gengibre e misture.",
-      "6 - Acrescente a mistura de farinha com cacau em pó (reservada acima). Misture bem e reserve.",
-      "7 - Numa batedeira, coloque os ovos e o açúcar. Bata bem até dobrar de volume.",
-      "8 - Com a batedeira ainda ligada, adicione o fermento em pó e bata até misturar.",
-      "9 - Desligue a batedeira. Acrescente a mistura de chocolate (reservada acima) e as nozes picadas. Misture."
+      "1 - Coloque numa panela aquecida 2 colheres (sopa) de azeite, o alho picadinho, a cebola picadinha e refogue até murchar.",
+      "2 - Acrescente 500g de carne moída e refogue até a carne ficar soltinha e começar a dourar.",
+      "3 - Junte 60g de extrato de tomate, ½ xícara (chá) de água, salsinha, sal e pimenta síria a gosto.",
+      "4 - Abaixe o fogo e deixe cozinhar por +/- 15 minutos ou até o molho encorpar.",
+      "5 - Apague o fogo e deixe esfriar.",
+      "6 - Numa frigideira antiaderente, em fogo médio com azeite, grelhe os hamburquibes dos dois lados (+/- 12 minutos).",
+      "7 - Sirva com molho de iogurte com hortelã.",
+      "8 - Se preferir, coloque hamburquibes numa assadeira untada e leve ao forno pré-aquecido a 200°C por 10-15 minutos."
+    ]
+  },
+  {
+    "id": "3",
+    "nome": "Peixe Delícia",
+    "ingredientes": [
+      "100g de calda da cereja",
+      "400ml de vodca (ou Bourbon ou whisky com 40º de álcool)",
+      "Corante alimentício em pó vermelho a gosto",
+      "50 cerejas em calda com cabo e drenadas",
+      "600g de fondant branco",
+      "400g de chocolate meio amargo temperado"
+    ],
+    "modoPreparo": [
+      "1 - Em uma panela coloque 100g da calda da cereja, 400ml de vodca, corante alimentício em pó vermelho a gosto e misture.",
+      "2 - Leve ao fogo baixo até atingir a temperatura de 40°C.",
+      "3 - Retire do fogo.",
+      "4 - Coloque em um pote com tampa 50 cerejas em calda com cabo e drenadas e a calda da cereja aquecida (feita acima), tampe e guarde num local arejado por no mínimo 15 dias.",
+      "5 - Depois deste tempo retire as cerejas do pote e coloque em uma peneira para escorrer (20 minutos).",
+      "6 - Reserve as cerejas e a calda.",
+      "7 - Aqueça em uma panela 600g de fondant branco (entre 60° a 65°C) até que derreta completamente mexendo delicadamente.",
+      "8 - Coloque um pouco de calda da cereja para afinar o fondant.",
+      "9 - Retire do fogo.",
+      "10 - Mergulhe as cerejas (reservadas acima) no fondant até que fiquem cobertas totalmente.",
+      "11 - Em seguida coloque em um papel-manteiga untado (ou tapete antiaderente) para secar (cerca de 10 minutos).",
+      "12 - Em outro papel-manteiga untado (ou tapete antiaderente) pingue uma gota com 1 cm de diâmetro de chocolate meio amargo derretido e temperado e coloque a cereja com fondant sobre a gota (esse processo previne o vazamento do licor pelo fundo).",
+      "13 - Deixe o chocolate endurecer.",
+      "14 - Em seguida, banhe as cerejas por completo no chocolate, leve para a geladeira por 5 minutos para firmar.",
+      "15 - Guarde em um recipiente com tampa por pelo menos 10 dias antes de consumir."
+    ]
+  },
+  {
+    "id": "4",
+    "nome": "Paleta Assada",
+    "ingredientes": [
+      "1 litro de água",
+      "3 colheres (sopa) sal (45g)",
+      "3 colheres (sopa) açúcar (30g)",
+      "½ colher (sopa) de alho picado (5g)",
+      "1 colher (sopa) de pimenta-do-reino moída a gosto (5g)",
+      "1 colher (sopa) de páprica picante em pó (5g)",
+      "Alecrim debulhado a gosto",
+      "4 bifes de paleta com osso (+/- 3kg no total)"
+    ],
+    "modoPreparo": [
+      "1 - Em uma tigela coloque 1 litro de água, 3 colheres (sopa) de sal, 3 colheres (sopa) de açúcar, ½ colher (sopa) de alho picado, 1 colher (sopa) de pimenta-do-reino moída a gosto, 1 colher (sopa) de páprica picante em pó, alecrim debulhado a gosto e misture bem.",
+      "2 - Encha uma seringa com a mistura de temperos (feita acima) e em seguida injete em 4 bifes de paleta com osso espalhando o tempero por toda a peça. OBS: faça isso algumas vezes.",
+      "3 - Coloque os bifes de paleta e o restante da mistura de temperos dentro de um saco plástico, misture e deixe marinando na geladeira por 3 dias.",
+      "4 - Depois deste tempo, retire os bifes de paleta da marinada e lave rapidamente em água corrente. Em seguida seque com papel-toalha.",
+      "5 - Em uma assadeira untada com azeite coloque os bifes de paleta, regue azeite e leve para assar em forno alto preaquecido a 220°C por cerca de 1 hora e 40 minutos.",
+      "6 - Vire os bifes de paleta e deixe no forno até dourar (cerca de 20 minutos).Retire do forno e sirva em seguida com farofa e vinagrete."
     ]
   }
 ]
