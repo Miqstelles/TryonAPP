@@ -4,8 +4,8 @@ export declare global {
             home: undefined;
             recipe: {
                 nome: string;
-                modoPreparo: string[];
                 ingredientes: string[];
+                modoPreparo: string[];
             }
         }
     }
