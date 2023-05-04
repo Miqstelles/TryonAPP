@@ -14,7 +14,7 @@ export function Info() {
                     </Text>
                     <View style={styles.infos}>
                         <Text style={styles.info}>
-                            Você pode pesquisar receitas usando  ingredientes especificos.
+                            Você pode pesquisar receitas usando os ingredientes que você tem disponivel.
                         </Text>
                         <Text style={styles.info}>
                             Você pode pesquisar a receita diretamente pelo nome dela.
