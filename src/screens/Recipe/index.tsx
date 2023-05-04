@@ -14,7 +14,7 @@ export function RecipeDetails() {
     const route = useRoute<RouteProp<Record<string, RecipeDetailsRouteParams>, string>>();
     const { nome, ingredientes, modoPreparo } = route.params;
 
-    const [option, setOption] = useState('')
+    const [option, setOption] = useState('ingrediente')
 
     return (
         <Background>
