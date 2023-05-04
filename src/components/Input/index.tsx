@@ -17,7 +17,7 @@ export function Input({ value, placeholder, onChangeText, ...rest }: InputProps)
             value={value}
             keyboardType='default'
             onChangeText={(text) => {
-                const regex = /^[a-zA-Z ]+$/;
+                const regex = /^[\p{L} ]+$/u;
                 if (regex.test(text) || text === '') {
                     onChangeText(text);
                 }
