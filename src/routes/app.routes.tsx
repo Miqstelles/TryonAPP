@@ -3,9 +3,8 @@ import { HouseSimple, Info as InfoIcon, Hamburger } from 'phosphor-react-native'
 import { Home } from '../screens/Home'
 import { Info } from '../screens/Info';
 import { Recipes } from '../screens/SearchRecipes';
-import { RecipeDetails } from '../screens/Recipe';
 
-const { Navigator, Screen } = createBottomTabNavigator();
+const { Screen, Navigator } = createBottomTabNavigator();
 
 export function AppRoutes() {
     return (
@@ -18,6 +17,8 @@ export function AppRoutes() {
                 shadowRadius: 4,
                 height: 80,
                 padding: 32,
+                flexDirection: 'row',
+                justifyContent: 'center',
             },
             tabBarLabel: '',
         }}>
@@ -34,11 +35,6 @@ export function AppRoutes() {
             <Screen
                 name="recipes"
                 component={Recipes}
-                options={{ tabBarIcon: ({ focused }) => (<Hamburger color={focused ? '#fff' : '#000'} size={32} />) }}
-            />
-            <Screen
-                name="recipe"
-                component={RecipeDetails}
                 options={{ tabBarIcon: ({ focused }) => (<Hamburger color={focused ? '#fff' : '#000'} size={32} />) }}
             />
         </Navigator>
