@@ -34,14 +34,14 @@ export function Recipes() {
                     <ScrollView>
                         <View style={styles.recipeList}>
                             {searchRecipes().map((item, index) => (
-                                <TouchableOpacity onPress={() => {
+                                <TouchableOpacity key={index} onPress={() => {
                                     navigation.navigate('recipe', {
                                         nome: item.nome,
                                         modoPreparo: item.modoPreparo,
                                         ingredientes: item.ingredientes,
                                     });
                                 }}>
-                                    <View style={styles.recipeItem} key={index}>
+                                    <View style={styles.recipeItem}>
                                         <Text style={styles.recipeText}>{index + 1}. {item.nome}</Text>
                                         <CaretRight size={44} />
                                     </View>
