@@ -27,7 +27,7 @@ export function RecipeDetails() {
                 </View>
 
                 <View>
-                    <ScrollView style={{ maxHeight: 282 }} >
+                    <ScrollView style={{ maxHeight: 282 }} key={nome} >
                         {option === 'ingrediente' ?
                             <Text style={styles.ingrediente}>{ingredientes.join(', ').replace(/,/g, ',\n')}</Text>
                             :
